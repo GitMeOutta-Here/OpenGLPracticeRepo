@@ -1,0 +1,5 @@
+# ninja log v7
+11	917	8064131397688920	CMakeFiles/OpenGL.dir/src/LearnOpenGL.cpp.obj	78af26bb22ca7d72
+13	25	8064131397369786	clean	4657a475079c8ec1
+16	316	8064131397738780	CMakeFiles/OpenGL.dir/src/glad.c.obj	f356df200d6d7fa2
+917	1409	8064131406748063	OpenGL.exe	8cb38fa9b50f87bc
