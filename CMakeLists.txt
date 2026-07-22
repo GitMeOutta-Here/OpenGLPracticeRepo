@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(OpenGL
     src/LearnOpenGL.cpp
-    src/glad.c
+    "Dependencies/glad/src/glad.c"
     src/shader.h
 )
 
@@ -16,6 +16,7 @@ add_executable(OpenGL
 target_include_directories(OpenGL PRIVATE
     ${CMAKE_SOURCE_DIR}/Dependencies
     ${CMAKE_SOURCE_DIR}/Dependencies/GLFW/include
+    ${CMAKE_SOURCE_DIR}/Dependencies/glm
     ${CMAKE_SOURCE_DIR}/src
 )
 
